@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketServer", "WebSocketServer\WebSocketServer.csproj", "{8B12D929-AFA9-4307-BEFF-2ED0F1070FEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketChatServer", "WebSocketChatServer\WebSocketChatServer.csproj", "{4B6EC682-8633-437C-85C4-4A7BD409EB89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web", "web\web.csproj", "{05701A4F-17B9-488A-8CB9-436003CFB304}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B12D929-AFA9-4307-BEFF-2ED0F1070FEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B12D929-AFA9-4307-BEFF-2ED0F1070FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B12D929-AFA9-4307-BEFF-2ED0F1070FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B12D929-AFA9-4307-BEFF-2ED0F1070FEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B6EC682-8633-437C-85C4-4A7BD409EB89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B6EC682-8633-437C-85C4-4A7BD409EB89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B6EC682-8633-437C-85C4-4A7BD409EB89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B6EC682-8633-437C-85C4-4A7BD409EB89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05701A4F-17B9-488A-8CB9-436003CFB304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05701A4F-17B9-488A-8CB9-436003CFB304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05701A4F-17B9-488A-8CB9-436003CFB304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05701A4F-17B9-488A-8CB9-436003CFB304}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

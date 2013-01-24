@@ -1,0 +1,48 @@
+﻿@{
+	ViewBag.Title = "Index";
+}
+
+<div class="wrapper">
+	<table>
+		<thead>
+			<tr>
+				<th>Объект</th>
+				<th>Покупка</th>
+				<th>Продажа</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td data-name="name">EUR/USD</td>
+				<td data-name="buy">0</td>
+				<td data-name="sell">0</td>
+			</tr>
+			<tr>
+				<td data-name="name">EUR/CAD</td>
+				<td data-name="buy">0</td>
+				<td data-name="sell">0</td>
+			</tr>
+			<tr>
+				<td data-name="name">EUR/JPY</td>
+				<td data-name="buy">0</td>
+				<td data-name="sell">0</td>
+			</tr>
+			<tr>
+				<td data-name="name">EUR/CHF</td>
+				<td data-name="buy">0</td>
+				<td data-name="sell">0</td>
+			</tr>
+			<tr>
+				<td data-name="name">EUR/XXX</td>
+				<td data-name="buy">0</td>
+				<td data-name="sell">0</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+
+@section scripts
+{
+	<script type="text/javascript" src="@Url.Content("~/Scripts/app.js")"></script>
+}
